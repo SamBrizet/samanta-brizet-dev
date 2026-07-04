@@ -452,6 +452,63 @@ h1 {
   padding: 24px;
 }
 
+.portfolio-section {
+  background: linear-gradient(180deg, #ffffff, #fff6fb 62%, #eef7ff 100%);
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.portfolio-card {
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.94);
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  box-shadow: 0 22px 56px rgba(24, 35, 56, 0.08);
+}
+
+.portfolio-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.portfolio-card > div {
+  display: grid;
+  gap: 14px;
+  padding: 26px;
+}
+
+.portfolio-tag {
+  display: inline-flex;
+  width: fit-content;
+  padding: 8px 12px;
+  color: var(--navy);
+  background: #eef3ff;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.portfolio-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.btn-tertiary {
+  color: var(--navy);
+  background: #fff;
+  border: 1px solid var(--line);
+}
+
 .contact-section {
   background: linear-gradient(135deg, #fff7fb, #eef8ff);
 }
@@ -539,7 +596,8 @@ h1 {
 
   .profile-stats,
   .skill-grid,
-  .project-grid {
+  .project-grid,
+  .portfolio-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -593,7 +651,8 @@ h1 {
 
   .profile-stats,
   .skill-grid,
-  .project-grid {
+  .project-grid,
+  .portfolio-grid {
     grid-template-columns: 1fr;
   }
 
@@ -607,6 +666,10 @@ h1 {
 
   .project-card img {
     height: 190px;
+  }
+
+  .portfolio-card img {
+    height: 210px;
   }
 
   .footer {
