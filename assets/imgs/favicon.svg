@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="smGradient" x1="8" x2="56" y1="8" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e95a9b"/>
+      <stop offset="1" stop-color="#6d5dfc"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#smGradient)"/>
+  <text x="32" y="39" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="800" text-anchor="middle">SM</text>
+</svg>

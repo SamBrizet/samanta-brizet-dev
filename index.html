@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio frontend de Samanta Brizet Mogrovejo Tucto, desarrolladora con experiencia en Vue, React, Angular, Flutter y tecnologias web.">
+  <title>Samanta Mogrovejo | Frontend Developer</title>
+  <link rel="icon" type="image/svg+xml" href="assets/imgs/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Inicio">
+      <span class="brand-mark">SM</span>
+      <span>Samanta.dev</span>
+    </a>
+
+    <button class="menu-button" type="button" aria-label="Abrir menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-nav" aria-label="Navegacion principal">
+      <a href="#perfil">Perfil</a>
+      <a href="#tecnologias">Tecnologias</a>
+      <a href="#experiencia">Experiencia</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-media" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1500&q=85" alt="">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Frontend Developer | UI Web | Peru</p>
+        <h1>Samanta Brizet Mogrovejo Tucto</h1>
+        <p class="hero-copy">
+          Desarrolladora frontend con 4 años de experiencia creando interfaces modernas,
+          responsivas y orientadas a una experiencia de usuario clara.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://wa.me/51922013597?text=Hola%20Samanta%2C%20vi%20tu%20portafolio%20y%20quiero%20conversar%20contigo." target="_blank" rel="noopener">
+            Contactar por WhatsApp
+          </a>
+          <a class="btn btn-secondary" href="#proyectos">Ver presentacion</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile-band" id="perfil">
+      <div class="profile-card reveal">
+        <div class="avatar-wrap">
+          <img class="avatar" src="assets/imgs/profile.png" alt="Foto de Samanta Mogrovejo">
+          <span class="status-dot"></span>
+        </div>
+        <div>
+          <p class="section-kicker">Disponible para oportunidades</p>
+          <h2>Frontend developer enfocada en interfaces intuitivas</h2>
+          <p>
+            Apasionada por construir productos digitales limpios, rapidos y faciles de usar.
+            Combina criterio visual, buenas practicas de maquetacion y conocimiento funcional
+            de backend para integrarse mejor con equipos de producto.
+          </p>
+        </div>
+        <div class="profile-stats" aria-label="Resumen profesional">
+          <article>
+            <strong>27</strong>
+            <span>años</span>
+          </article>
+          <article>
+            <strong>3+</strong>
+            <span>años de experiencia</span>
+          </article>
+          <article>
+            <strong>100%</strong>
+            <span>enfoque frontend</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tecnologias">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Stack tecnico</p>
+        <h2>Tecnologias categorizadas para presentacion frontend</h2>
+        <p>Un perfil preparado para construir interfaces, consumir APIs y entregar experiencias responsivas listas para produccion.</p>
+      </div>
+
+      <div class="skill-grid">
+        <article class="skill-card reveal">
+          <span class="card-icon">UI</span>
+          <h3>Frameworks frontend</h3>
+          <div class="chips">
+            <span>Vue.js</span>
+            <span>React</span>
+            <span>Angular</span>
+            <span>Flutter</span>
+            <span>SPA</span>
+            <span>Componentes</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="card-icon">CSS</span>
+          <h3>Estilos y maquetacion</h3>
+          <div class="chips">
+            <span>CSS3</span>
+            <span>Tailwind CSS</span>
+            <span>Bootstrap</span>
+            <span>Responsive Design</span>
+            <span>Flexbox</span>
+            <span>Grid Layout</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="card-icon">JS</span>
+          <h3>Frontend core</h3>
+          <div class="chips">
+            <span>JavaScript</span>
+            <span>HTML5</span>
+            <span>UX/UI</span>
+            <span>Consumo de APIs</span>
+            <span>Optimizacion web</span>
+            <span>Git</span>
+          </div>
+        </article>
+
+        <article class="skill-card reveal">
+          <span class="card-icon">API</span>
+          <h3>Backend basico</h3>
+          <div class="chips">
+            <span>Node.js</span>
+            <span>PHP</span>
+            <span>JavaScript Backend</span>
+            <span>MySQL</span>
+            <span>REST APIs</span>
+            <span>MVC</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split-section" id="experiencia">
+      <div class="section-heading reveal">
+        <p class="section-kicker">Trayectoria</p>
+        <h2>Experiencia profesional</h2>
+        <p>Experiencia en desarrollo web, mantenimiento de modulos y construccion de soluciones para usuarios reales.</p>
+      </div>
+
+      <div class="timeline reveal">
+         <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <p class="date">Ene. 2024 - Sep. 2025</p>
+          <h3>Frontend Developer | Blue Media</h3>
+          <p>Desarrollo de aplicaciones móviles y web utilizando Flutter. Implementación de interfaces de usuario basadas en diseños de Figma, asegurando fidelidad visual y buena experiencia de usuario.</p>
+          <strong>Flutter, Dart, REST APIs</strong>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <p class="date">Nov. 2022 - Ago. 2023</p>
+          <h3>Programador Full Stack | GrupoRojas</h3>
+          <p>Mantenimiento de modulos internos, desarrollo de caja, presupuestos, gastos y recursos humanos.</p>
+          <strong>Node.js, Nuxt.js, JavaScript</strong>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <p class="date">Mar. 2020 - Nov. 2020</p>
+          <h3>Programador Web | Centro de Salud San Antonio</h3>
+          <p>Creacion y mantenimiento de modulos para citas medicas, historias clinicas, datos y optimizacion web.</p>
+          <strong>PHP, MySQL, JavaScript</strong>
+        </article>
+        <article class="timeline-item">
+          <span class="timeline-dot"></span>
+          <p class="date">2017 - 2019</p>
+          <h3>Desarrollo de Sistemas de Informacion</h3>
+          <p>Formacion tecnica orientada a analisis, desarrollo de aplicaciones web y fundamentos de programacion.</p>
+          <strong>Instituto Tecnologico San Pedro</strong>
+        </article>
+      </div>
+    </section>
+
+   <section class="section project-section" id="proyectos">
+  <div class="section-heading reveal">
+    <p class="section-kicker">Perfil profesional</p>
+    <h2>Áreas en las que aporto valor</h2>
+    <p>Enfocada en el desarrollo de interfaces modernas, funcionales y centradas en el usuario, combinando diseño y desarrollo para crear experiencias digitales eficientes.</p>
+  </div>
+
+  <div class="project-grid">
+    <article class="project-card reveal">
+      <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=900&q=80" alt="Panel web moderno en laptop">
+      <div>
+        <h3>Interfaces web responsivas</h3>
+        <p>Desarrollo de interfaces adaptables a distintos dispositivos, priorizando claridad visual y reutilización de componentes.</p>
+      </div>
+    </article>
+    <article class="project-card reveal">
+      <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?auto=format&fit=crop&w=900&q=80" alt="Diseno de experiencia de usuario">
+      <div>
+        <h3>Experiencia de usuario</h3>
+        <p>Organización de contenido y diseño de flujos simples que facilitan la interacción del usuario con la aplicación.</p>
+      </div>
+    </article>
+    <article class="project-card reveal">
+      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80" alt="Codigo en pantalla">
+      <div>
+        <h3>Integración con APIs</h3>
+        <p>Consumo de servicios REST, manejo de estados y validaciones para conectar el frontend con el backend de forma eficiente.</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+    <section class="section contact-section" id="contacto">
+      <div class="contact-panel reveal">
+        <div>
+          <p class="section-kicker">Contacto</p>
+          <h2>Lista para conversar sobre nuevos proyectos</h2>
+          <p>Para oportunidades frontend, desarrollo web o colaboraciones digitales, puedes contactarme directamente.</p>
+        </div>
+
+        <div class="contact-actions">
+          <a class="contact-link whatsapp" href="https://wa.me/51922013597?text=Hola%20Samanta%2C%20vi%20tu%20portafolio%20y%20me%20gustaria%20contactarte." target="_blank" rel="noopener">
+            WhatsApp: 922 013 597
+          </a>
+          <a class="contact-link" href="https://www.linkedin.com/in/samanta-mogrovejo/" target="_blank" rel="noopener">
+            LinkedIn
+          </a>
+          <a class="contact-link" href="https://github.com/" target="_blank" rel="noopener">
+            GitHub
+          </a>
+          <button class="contact-link copy-phone" type="button" data-phone="922013597">
+            Copiar celular
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Samanta Mogrovejo. Frontend Developer.</p>
+    <a href="#inicio">Volver arriba</a>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
